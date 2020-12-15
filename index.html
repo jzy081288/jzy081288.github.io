@@ -1,1 +1,28 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CS425 Final Project</title>
+</head>
+<body style="background-color:black;">
+	<h1 style="color:white;">CS425 Final Project Fall 2020</h1>
+	<h2 style="color:white;">by Ziyi Jiang</h2>
+	<h3 style="color:white;">Amasing</h3>
+	<p style="color:white;">AMazing is a maze escaping game, the player is control himself to find the way and escaped from the maze. There will be some trophies in the maze that player can choose to collect them, the trophies will be hind in different places in the maze. Every trophies collected, the palyer will have the visial for the whole map for seconds. There are also few ghosts hiding in the maze, when player close to the ghosts, ghosts will be alarmed, and start the chase mode and chasing the player, once the player been catches, the game will restart. The goal of the game is finding out the way to escape from the maze, try not to be been caught by the ghosts, and collect the trophies as much as possible.</p>
+	<p style="color:white;">The game AI in this game will be the ghosts. The ghosts will hide in the dark and once they target the player nearby, they will speed up, if player can go outside of the area that ghosts can target, they will move back to the original place. The motion planning of the ghosts: looking for player nearby with a fix area that they can target, once they target the player, they will move straight to the player, ghosts cannot move across the wall just like the player. There will be collision detect between wall, ghosts, player and the trophies The procedural content generation will have a map for different levels, which contain the start point of the player, the exit of the maze, the ghosts at different place and the trophies in different corner</p>
+	<p style="color:white;"> The game engine will be use for the game is the engine that we’ve been working on for the other projects</p>
+	<p style="color:white;">The player can only have a lighter in the dark maze (which means the player can only see a certain area), player should find out the correct way to escape from the maze. Collecting trophies and keep away from the ghosts attach will make the game been more challenged.</p>
+
+	<video controls>
+		<source src="WIN.mp4" type="video/mp4">
+	</video>
+
+	<p style="color:white;">This video shows the player who collect all the trophies and win the game. </p>
+
+	<video controls>
+		<source src="LOSE.mp4" type="video/mp4">
+	</video>
+
+	<p style="color:white;">This video shows the player who killed by the ghost. </p>
+
+</body>
+</html>
